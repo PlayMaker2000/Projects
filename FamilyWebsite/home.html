@@ -1,0 +1,211 @@
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<html>
+    <head>
+        <h1>
+            Vang Family<br>
+            <img src="images/vangfam.jpg">
+        </h1>
+        <h3>
+            <div class="tab">
+                <button class="tab" onclick="openFamily('Vang')">Vang</button>
+                <button class="tab" onclick="openFamily('Moua')">Moua</button>
+                <button class="tab" onclick="openFamily('Lee')">Lee</button>
+                <button class="tab" onclick="openFamily('Kong')">Kong</button><br/>
+            </div>
+
+            <div id="Vang" class="lname" style="display:none">
+                <img src="images/vangfamily.jpg">
+
+                <div class="tab">
+                    <button class="tab" onclick="openRelationship('vangParents')">Parents</button>
+                    <button class="tab" onclick="openRelationship('vangChildren')">Children</button>
+
+                    <div id='vangParents' class="rship" style="display:none">
+                        <button class="tab" onclick="openPerson('Ying')">Ying</button>
+                        <button class="tab" onclick="openPerson('Cynthia')">Cynthia</button>
+
+                        <div id="Ying" class="fname" style ="display:none">
+                            <h3>Ying</h3>
+                            <img src="images/Ying.jpg">
+                        </div>
+
+                        <div id="Cynthia" class="fname" style ="display:none">
+                            <h3>Cynthia</h3>
+                            <img src="images/cynthia.jpg">
+                        </div>
+                    </div>
+
+                    <div id='vangChildren' class="rship" style="display:none">
+                        <button class="tab" onclick="openPerson('Xavier')">Xavier</button>
+                        <button class="tab" onclick="openPerson('Max')">Max</button>
+                        <button class="tab" onclick="openPerson('Onyx')">Onyx</button>
+
+                        <div id="Xavier" class="fname" style ="display:none">
+                            <h3>Xavier</h3>
+                            <img src="images/Xavier.jpg">
+                        </div>
+
+                        <div id="Max" class="fname" style="display:none">
+                            <h3>Max</h3>
+                            <img src="images/max.jpg">
+                        </div> 
+
+                        <div id="Onyx" class="fname" style="display:none">
+                            <h3>Onyx</h3>
+                            <img src="images/onyx.jpg">
+                        </div> 
+                    </div>           
+                </div>
+            </div>
+              
+            <div id="Moua" class="lname" style="display:none">
+                <img src="images/mouafamily.jpg">
+                    <div class = "tab">
+                        <button class="tab" onclick="openRelationship('mouaParents')">Parents</button>
+                        <button class="tab" onclick="openRelationship('mouaChildren')">Children</button>
+
+                        <div id='mouaParents' class="rship" style="display:none">
+                            <button class="tab" onclick="openPerson('Susan')">Susan</button>
+    
+                            <div id="Susan" class="fname" style ="display:none">
+                                <h3>Susan</h3>
+                                <img src="images/susan.jpg">
+                            </div>
+                        </div>
+
+                        <div id='mouaChildren' class="rship" style="display:none">
+                            <button class="tab" onclick="openPerson('Devon')">Devon</button>
+                            <button class="tab" onclick="openPerson('Evelynn')">Evelynn</button>
+                            <button class="tab" onclick="openPerson('Chuyi')">Chuyi</button>
+                            <button class="tab" onclick="openPerson('Aria')">Aria</button>
+
+                            <div id="Devon" class="fname" style ="display:none">
+                                <h3>Devon</h3>
+                                <img src="images/devon.jpg">
+                            </div>
+
+                            <div id="Evelynn" class="fname" style="display:none">
+                                <h3>Evelynn</h3>
+                                <img src="images/evelynn.jpg">
+                            </div> 
+
+                            <div id="Chuyi" class="fname" style="display:none">
+                                <h3>Chuyi</h3>
+                                <img src="images/chuyi.jpg">
+                            </div>     
+                            
+                            <div id="Aria" class="fname" style="display:none">
+                                <h3>Aria</h3>
+                                <img src="images/aria.jpg">
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+            <div id="Lee" class="lname" style="display:none">
+                <img src="images/leefamily.jpg">
+                <div class = "tab">
+                    <button class="tab" onclick="openRelationship('leeParents')">Parents</button>
+                    <button class="tab" onclick="openRelationship('leeChildren')">Children</button>
+
+                    <div id='leeParents' class="rship" style="display:none">
+                        <button class="tab" onclick="openPerson('Sean')">Sean</button>
+                        <button class="tab" onclick="openPerson('Ka')">Ka</button>
+
+                        <div id="Sean" class="fname" style ="display:none">
+                            <h3>Sean</h3>
+                            <img src="images/Sean.jpg">
+                        </div>
+
+                        <div id="Ka" class="fname" style ="display:none">
+                            <h3>Ka</h3>
+                            <img src="images/Ka.jpg">
+                        </div>
+                    </div>
+
+                    <div id='leeChildren' class="rship" style="display:none">
+                        <button class="tab" onclick="openPerson('Austin')">Austin</button>
+                        <button class="tab" onclick="openPerson('Jordan')">Jordan</button>
+                        <button class="tab" onclick="openPerson('Calvin')">Calvin</button>
+                        <button class="tab" onclick="openPerson('Quentin')">Quentin</button>
+
+                        <div id="Austin" class="fname" style ="display:none">
+                            <h3>Austin</h3>
+                            <img src="images/austine.jpg">
+                        </div>
+
+                        <div id="Jordan" class="fname" style="display:none">
+                            <h3>Jordan</h3>
+                            <img src="images/jordan.jpg">
+                        </div> 
+
+                        <div id="Calvin" class="fname" style="display:none">
+                            <h3>Calvin</h3>
+                            <img src="images/Calvin.jpg">
+                        </div>     
+                        
+                        <div id="Quentin" class="fname" style="display:none">
+                            <h3>Quentin</h3>
+                            <img src="images/quentin.jpg">
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div id="Kong" class="lname" style="display:none">
+                <img src="images/kongfamily.jpg">
+                <div class = "tab">
+                    <button class="tab" onclick="openRelationship('kongParents')">Parents</button>
+                    <button class="tab" onclick="openRelationship('kongChildren')">Children</button>
+
+                    <div id='kongParents' class="rship" style="display:none">
+                        <button class="tab" onclick="openPerson('John')">John</button>
+                        <button class="tab" onclick="openPerson('Pang')">Pang</button>
+
+                        <div id="John" class="fname" style ="display:none">
+                            <h3>John</h3>
+                            <img src="images/john.jpg">
+                        </div>
+
+                        <div id="Pang" class="fname" style ="display:none">
+                            <h3>Pang</h3>
+                            <img src="images/pang.jpg">
+                        </div>
+                    </div>
+
+                    <div id='kongChildren' class="rship" style="display:none">
+                        <button class="tab" onclick="openPerson('Keayin')">Keayin</button>
+                        <button class="tab" onclick="openPerson('Katelyn')">Katelyn</button>
+                        <button class="tab" onclick="openPerson('Kaizer')">Kaizer</button>
+                        <button class="tab" onclick="openPerson('Kaiyee')">Kaiyee</button>
+
+                        <div id="Keayin" class="fname" style ="display:none">
+                            <h3>Keayin</h3>
+                            <img src="images/keayin.jpg">
+                        </div>
+
+                        <div id="Katelyn" class="fname" style="display:none">
+                            <h3>Katelyn</h3>
+                            <img src="images/katelyn.jpg">
+                        </div> 
+
+                        <div id="Kaizer" class="fname" style="display:none">
+                            <h3>Kaizer</h3>
+                            <img src="images/kaizer.jpg">
+                        </div>     
+                        
+                        <div id="Kaiyee" class="fname" style="display:none">
+                            <h3>Kaiyee</h3>
+                            <img src="images/kaiyee.jpg">
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </h3>
+    </head>
+    <body>
+    </body>
+</html>
